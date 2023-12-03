@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.wrtite("HUYỀN - HƯƠNG FLOWERS SHOP")
+st.write("HUYỀN - HƯƠNG FLOWERS SHOP - THE BET SHOP")
