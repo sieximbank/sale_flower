@@ -1,9 +1,6 @@
 import streamlit as st
 
-with st.sidebar:
-    selected = option_menu(["Trang chủ", 'Giới thiệu'], 
-        icons=['house', 'gear'], menu_icon="cast", default_index=1)
-    selected
-        
-#st.write("HƯƠNG - HUYỀN FLOWERS SHOP")
-#        # app = st.sidebar(
+selected2 = option_menu(None, ["Home", "Upload", "Tasks", 'Settings'], 
+    icons=['house', 'cloud-upload', "list-task", 'gear'], 
+    menu_icon="cast", default_index=0, orientation="horizontal")
+    selected2
