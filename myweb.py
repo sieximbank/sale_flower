@@ -3,7 +3,7 @@ import streamlit as st
 with st.sidebar:
     selected = option_menu(["Trang chủ", 'Giới thiệu'], 
         icons=['house', 'gear'], menu_icon="cast", default_index=1)
-    #selected
+    selected
         
 #st.write("HƯƠNG - HUYỀN FLOWERS SHOP")
 #        # app = st.sidebar(
