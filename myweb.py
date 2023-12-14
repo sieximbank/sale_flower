@@ -15,6 +15,6 @@ st.header("HUYỀN - HƯƠNG FLOWERS SHOP - THE BEST SHOP")
       #   st.write("filename:", uploaded_file.name)
       #   st.image(uploaded_files, caption= "Hoa", width = 800, channels = "RGB")
 
-tab1, tab2, tab3 = st.tabs(["Home", "Admin", "About"])
-with tab1:
-   st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu'])
+#tab1, tab2, tab3 = st.tabs(["Home", "Admin", "About"])
+#with tab1:
+st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu'])
