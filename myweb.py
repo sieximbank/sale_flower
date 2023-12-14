@@ -5,8 +5,8 @@ st.markdown("""
                .block-container {
                     padding-top: 0rem;
                     padding-bottom: 0rem;
-                    padding-left: 10rem;
-                    padding-right: 10rem;
+                    padding-left: 0rem;
+                    padding-right: 0rem;
                 }
         </style>
         """, unsafe_allow_html=True)
