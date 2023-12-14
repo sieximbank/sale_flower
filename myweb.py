@@ -10,9 +10,11 @@ with tab1:
    st.header("HOA HUYEN HUONG FLOWERS SHOP")
 
 with tab2:
+   col1,col2 = st.columns(2,gap='small')
    st.header("Upload files")
    uploaded_files = st.file_uploader("Choose a jpg file", accept_multiple_files=True)   
    for uploaded_file in uploaded_files:
-      bytes_data = uploaded_file.read()
-      st.write("filename:", uploaded_file.name)
-      st.image(uploaded_files, caption= "Hoa", width = 800, channels = "RGB")
+      #bytes_data = uploaded_file.read()
+      with col1:
+         st.write("filename:", uploaded_file.name)
+         st.image(uploaded_files, caption= "Hoa", width = 800, channels = "RGB")
