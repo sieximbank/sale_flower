@@ -17,4 +17,4 @@ st.header("HUYỀN - HƯƠNG FLOWERS SHOP - THE BEST SHOP")
 
 tab1, tab2, tab3 = st.tabs(["Home", "Admin", "About"])
 with tab1:
-   st.siderbar.multiselect("Chọn hoa :",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu'])
+   st.sidebar.multiselect("Chọn hoa :",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu'])
