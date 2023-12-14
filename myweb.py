@@ -7,13 +7,12 @@ st.write("HUYỀN - HƯƠNG FLOWERS SHOP - THE BEST SHOP")
 tab1, tab2, tab3 = st.tabs(["Trang chủ", "Admin", "About"])
 
 with tab1:
-   st.header("A cat")
-   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+   st.headder("HOA HUYEN HUONG FLOWERS SHOP")
 
 with tab2:
-   st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-
-with tab3:
-   st.header("An owl")
-   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+   st.header("Upload files")
+   uploaded_files = st.file_uploader("Choose a jpg file", accept_multiple_files=True)   
+   for uploaded_file in uploaded_files:
+      bytes_data = uploaded_file.read()
+      st.write("filename:", uploaded_file.name)
+      st.write(bytes_data)
