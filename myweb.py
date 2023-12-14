@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 #from streamlit_option_menu import option_menu
 st.markdown("""
         <style>
@@ -30,9 +31,10 @@ st.header("HUYỀN - HƯƠNG FLOWERS SHOP - THE BEST SHOP")
 
 st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu'])
 #st.sidebar.multiselect("Chọn Loại",['Nhập khẩu','Trong nước'])
-
+#https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing
 col1,col2,col3 = st.columns(3,gap='small')
 with col1:
-        st.image('https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing')
+        image = Image.open('https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing')
+        st.image(image)
         
 
