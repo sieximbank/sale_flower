@@ -7,7 +7,7 @@ st.write("HUYỀN - HƯƠNG FLOWERS SHOP - THE BEST SHOP")
 tab1, tab2, tab3 = st.tabs(["Trang chủ", "Admin", "About"])
 
 with tab1:
-   st.headder("HOA HUYEN HUONG FLOWERS SHOP")
+   st.header("HOA HUYEN HUONG FLOWERS SHOP")
 
 with tab2:
    st.header("Upload files")
