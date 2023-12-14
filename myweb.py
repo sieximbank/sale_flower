@@ -27,5 +27,16 @@ st.header("HUYỀN - HƯƠNG FLOWERS SHOP - THE BEST SHOP")
 
 #tab1, tab2, tab3 = st.tabs(["Home", "Admin", "About"])
 #with tab1:
+st.markdown(
+    """
+<style>
+.sidebar .sidebar-content {
+    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+    color: white;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
 st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu'])
 st.sidebar.multiselect("Chọn Loại",['Nhập khẩu','Trong nước'])
