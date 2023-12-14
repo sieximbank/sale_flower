@@ -33,6 +33,6 @@ st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu']
 
 col1,col2,col3 = st.columns(3,gap='small')
 with col1:
-        st.image('https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=drive_link')
+        st.image('https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing')
         
 
