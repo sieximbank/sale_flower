@@ -8,6 +8,7 @@ tab1, tab2, tab3 = st.tabs(["Trang chủ", "Admin", "About"])
 
 with tab1:
    st.header("HOA HUYEN HUONG FLOWERS SHOP")
+   options2 =  st.sidebar.multiselect('Chon :',['Hoa Hong','Hoa Lan'])   
 
 with tab2:
    col1,col2 = st.columns(2,gap='small')
