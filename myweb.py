@@ -35,12 +35,16 @@ st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu']
 #st.sidebar.multiselect("Chọn Loại",['Nhập khẩu','Trong nước'])
 #https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing
 #col1,col2,col3 = st.columns(3,gap='small')
+st.markdown('''
+            <style>
+            .fullHeight {height : 80vh;
+                  width : 100%}
+            </style>''', unsafe_allow_html = True)
 
-with st.container(border=True):
-        st.write("Hình nền")        
-        st.image("https://images.pexels.com/photos/250591/pexels-photo-250591.jpeg")
-#with col1:
-#        image = Image.open('https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing','r')
-#        st.image(image)
+container = st.container()
+
+container.markdown("<iframe scr='linke', class = 'fullHeight'></iframe>", unsafe_allow_html = True)
+container.write("Hình nền")   
+container.image("https://images.pexels.com/photos/250591/pexels-photo-250591.jpeg")
         
 
