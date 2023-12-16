@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 #from streamlit_option_menu import option_menu
+st.set_page_config(layout=“wide”)
 st.markdown("""
         <style>
                .block-container {
