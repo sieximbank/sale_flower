@@ -38,13 +38,5 @@ st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu']
 container = st.container()
 #container.write("Hình nền")   
 container.image("https://images.pexels.com/photos/250591/pexels-photo-250591.jpeg")
-with container:
-        col1,col2 =  st.columns(2)
-        with col1:
-                st.write("cot 1")
-        with col2:
-                st.write("ciot 2")
-                
 
         
-
