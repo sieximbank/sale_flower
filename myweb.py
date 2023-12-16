@@ -33,8 +33,10 @@ st.sidebar.multiselect("Chọn hoa",['Hoa Hồng','Hoa Lan','Hoa Nhập Khẩu']
 #st.sidebar.multiselect("Chọn Loại",['Nhập khẩu','Trong nước'])
 #https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing
 #col1,col2,col3 = st.columns(3,gap='small')
+
 with st.container(border=True):
-   st.write("Hình nền")        
+        st.write("Hình nền")        
+        st.image("https://images.pexels.com/photos/250591/pexels-photo-250591.jpeg")
 #with col1:
 #        image = Image.open('https://drive.google.com/file/d/1ePE3SQzf1SVip928h70QoYm6JXFqhmHi/view?usp=sharing','r')
 #        st.image(image)
